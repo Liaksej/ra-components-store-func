@@ -1,6 +1,5 @@
-import "./globals.css";
-
 import { ShopItemFunc } from "@/components/ShopItemFunc";
+import RootLayout from "@/app/layout";
 
 const item = {
   brand: "Tiger of Sweden",

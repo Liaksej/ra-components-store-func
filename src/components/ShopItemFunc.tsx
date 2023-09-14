@@ -15,7 +15,7 @@ export const ShopItemFunc: FunctionComponent<ShopItemFuncProps> = ({
   item: { brand, title, description, descriptionFull, price, currency },
 }) => {
   return (
-    <div className="main-сontent">
+    <div className="main-content">
       <h2>{brand}</h2>
       <h1>{title}</h1>
       <h3>{description}</h3>
