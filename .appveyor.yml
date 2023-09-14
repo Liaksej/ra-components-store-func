@@ -3,6 +3,7 @@ image: Ubuntu1804  # образ для сборки
 environment:
   GITHUB_TOKEN:
     secure: rKdsw1KgWV2Z2QuzJ+kmvGT7+WFjazcjsGOZ9hfyf1XRqxp+19cJXCYItRfju89y
+  NEXT_PUBLIC_BASE_PATH: /ra-components-store-func
 
 stack: node 16  # окружение
 
