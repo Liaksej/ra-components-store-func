@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  output: "export",
   assetPrefix:
     process.env.NODE_ENV === "production"
-      ? "https://liaksej.github.io/ra-components-store-func/"
+      ? "/ra-components-store-func/"
       : undefined,
+  output: "export",
 };
 
 module.exports = nextConfig;
