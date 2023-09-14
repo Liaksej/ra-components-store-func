@@ -2,8 +2,8 @@
 
 const nextConfig = {
   output: "export",
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
+  basePath: "/ra-components-store-func",
+  assetPrefix: "/ra-components-store-func",
 };
 
 module.exports = nextConfig;
